@@ -27,6 +27,7 @@ public class AlertPage extends BasePage {
 	 * Method to handle alerts in web applications
 	 * @param alertText - text in alert window
 	 */
+	//Added new comment
 	public void handleAlerts(String alertText) {
 		clickElement(btnClickMe);
 		handleAletrs(driver,"accept");
