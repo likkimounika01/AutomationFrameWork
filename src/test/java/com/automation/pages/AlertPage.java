@@ -22,7 +22,11 @@ public class AlertPage extends BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+
+	/**
+	 * Method to handle alerts in web applications
+	 * @param alertText - text in alert window
+	 */
 	public void handleAlerts(String alertText) {
 		clickElement(btnClickMe);
 		handleAletrs(driver,"accept");

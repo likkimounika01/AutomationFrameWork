@@ -73,8 +73,10 @@ public class RegisterPage extends BasePage{
 	}
 
 
-
-
+	/**
+	 * Method to register a user
+	 * @param data
+	 */
 	public void registerUser(JsonUtilities data) {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		
