@@ -7,6 +7,7 @@ import com.automation.pages.AlertPage;
 import com.automation.pages.GooglePage;
 
 public class ScrenshotTest extends BaseTest{
+	//test to validation screenshot
 	
 	@Test(priority = 0)
 	public void validateScreenshot()
