@@ -7,6 +7,9 @@ import com.automation.accelerators.BaseTest;
 import com.automation.pages.PdfParsingPage;
 
 public class PdfParsingTest extends BaseTest {
+	/**
+	 * Test to validate PDf Parsing
+	 */
 	@Test
 	public void validatePdf() {
 		PdfParsingPage pdfParsingPage = new PdfParsingPage(driver);
