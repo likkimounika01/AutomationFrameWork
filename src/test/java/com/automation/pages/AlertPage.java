@@ -22,7 +22,7 @@ public class AlertPage extends BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+	//Added new comment
 	public void handleAlerts(String alertText) {
 		clickElement(btnClickMe);
 		handleAletrs(driver,"accept");
