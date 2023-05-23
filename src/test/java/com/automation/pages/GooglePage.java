@@ -17,7 +17,7 @@ public class GooglePage extends BasePage {
 	}
 
 	/***
-	 * method to enter text in the Google page
+	 * method to enter text in the Google page fo testing google
 	 * @param searchValue
 	 */
 	public void searchElement(String searchValue)
