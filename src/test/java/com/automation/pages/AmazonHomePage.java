@@ -23,7 +23,7 @@ public class AmazonHomePage extends BasePage{
 	}
 
 	/**
-	 * Click customer service link
+	 * Creating Customer service page
 	 */
 	public void clickCustomerService(){
 		jsClick(driver, lnkCustomerService);
