@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite" parallel="methods" thread-count="3" preserve-order="true">
+
+
+ <test name="Test Automation firefox">
+      <parameter name="browserName" value="firefox"/>
+      
+      <classes>
+      	
+      	<class name="com.automation.tests.ScrollingExample">
+      	<methods>
+      			
+      			<include name="verifyJavaScriptClick"></include>
+      			
+      			
+      		</methods>		
+      	</class>
+      	
+      			
+      </classes>
+  </test> 
+  <test name="Test Automation chrome">
+      <parameter name="browserName" value="chrome"/>
+      
+      <classes>
+      	
+      	<class name="com.automation.tests.ScrollingExample">
+      	<methods>
+      			
+      			<include name="verifyJavaScriptClick"></include>
+      			<include name="verifyScrollToBottomOfThePage"></include>
+      			
+      		</methods>		
+      	</class>
+      	
+      			
+      </classes>
+  </test> 
+   
+  	
+</suite>
+
+
+
+
+
+		
