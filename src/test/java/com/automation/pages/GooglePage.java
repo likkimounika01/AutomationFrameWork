@@ -15,6 +15,11 @@ public class GooglePage extends BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+	/***
+	 * method to enter text in the Google page
+	 * @param searchValue
+	 */
 	public void searchElement(String searchValue)
 	{
 		enterText(txtGoogleSearch, searchValue);
