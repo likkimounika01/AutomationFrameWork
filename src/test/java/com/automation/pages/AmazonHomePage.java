@@ -21,6 +21,10 @@ public class AmazonHomePage extends BasePage{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+	/**
+	 * Click customer service link
+	 */
 	public void clickCustomerService(){
 		jsClick(driver, lnkCustomerService);
 	}

@@ -14,6 +14,10 @@ public class DownloadPage extends BasePage{
     @FindBy(xpath="//a[contains(@href ,'/master.zip')]")
     private WebElement lnkDownloadZip;
 
+    /**
+     * Parametrized constructor
+     * @param driver
+     */
     public DownloadPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
