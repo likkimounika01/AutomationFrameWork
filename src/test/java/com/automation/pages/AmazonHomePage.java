@@ -23,12 +23,12 @@ public class AmazonHomePage extends BasePage{
 	}
 
 	/**
-	 * Creating Customer service page
+	 * Click customer service link to test amazon
 	 */
 	public void clickCustomerService(){
 		jsClick(driver, lnkCustomerService);
 	}
-	// Creating Customer service page
+	
 	public boolean isCustomerServiceScreenDisplayed() {
 	return	isElementPresent(txtCustomerService);
 	}

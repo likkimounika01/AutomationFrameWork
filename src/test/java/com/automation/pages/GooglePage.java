@@ -24,5 +24,5 @@ public class GooglePage extends BasePage {
 	{
 		enterText(txtGoogleSearch, searchValue);
 	}
-// Search for an element
+
 }
