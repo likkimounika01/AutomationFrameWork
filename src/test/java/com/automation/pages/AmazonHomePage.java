@@ -8,6 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.automation.accelerators.BasePage;
 
 public class AmazonHomePage extends BasePage{
+
+	//Changes for stash
 	WebDriver driver;
 	@FindBy(xpath="//a[contains(@href,'customerservice')]")
 	private WebElement lnkCustomerService;
