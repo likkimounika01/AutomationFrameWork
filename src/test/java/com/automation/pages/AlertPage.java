@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.automation.accelerators.BasePage;
 
 public class AlertPage extends BasePage {
-	
+	//Web Elements for web automation
 	WebDriver driver;
 	@FindBy(id="alertButton")
 	private WebElement btnClickMe;
