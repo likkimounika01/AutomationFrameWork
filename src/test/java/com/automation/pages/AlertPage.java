@@ -33,6 +33,7 @@ public class AlertPage extends BasePage {
 		clickElement(btnClickMePrompt);
 		handleAletrs(driver,"accept","test");//To handle Text alert
 	}
+	//Method to choosefile
 	public void choseFile(String actionType)
 	{
 		scrollToElement(driver, flChoseFile);

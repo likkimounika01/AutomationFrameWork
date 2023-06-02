@@ -69,7 +69,7 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteName}</suiteXmlFile>
+							<suiteXmlFile>${suiteName}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
