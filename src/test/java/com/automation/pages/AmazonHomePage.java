@@ -24,7 +24,7 @@ public class AmazonHomePage extends BasePage{
 	public void clickCustomerService(){
 		jsClick(driver, lnkCustomerService);
 	}
-	
+	//test
 	public boolean isCustomerServiceScreenDisplayed() {
 	return	isElementPresent(txtCustomerService);
 	}
